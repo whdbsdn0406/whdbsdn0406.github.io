@@ -1,0 +1,110 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #BED4D8; /* Light teal */
+  color: #354C7C; /* Dark blue */
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif; /* Serif font with fallback */
+  color: #6F5476; /* Muted purple */
+}
+
+nav {
+  background-color: #354C7C;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #FFFF9E;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+img {
+  border: 3px solid #FFC0C0;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+a {
+  color: #354C7C;
+}
+
+a:hover {
+  color: #FFC0C0;
+}
+
+/* ===== UTILITY CLASSES ===== */
+.color-swatch {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid #354C7C;
+}
+
+/* ===== PAGE-SPECIFIC STYLES ===== */
+/* Profile Page */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Watchlist Page */
+.watchlist-item {
+  background-color: #FFFF9E;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 4px solid #6F5476;
+}
+
+/* Reviews Page */
+.review-card {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.color-palette {
+  margin: 10px 0;
+}
+
+/* Friends Page */
+.friends-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.friend-card {
+  background-color: #FFFF9E;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 0.8em;
+  text-align: center;
+}
